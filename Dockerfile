@@ -1,4 +1,4 @@
-FROM svizor/zoomcamp-model:3.10.12-slim
+FROM python:latest
 
 RUN pip install pipenv
 
@@ -8,7 +8,7 @@ COPY ["Pipfile", "Pipfile.lock", "./"]
 
 RUN pipenv install --system --deploy
 
-COPY ["predict.py", "./"]
+COPY ["predict.py", "cc_model.pkl", "dv.bin", "./"]
 
 EXPOSE 9696
 
