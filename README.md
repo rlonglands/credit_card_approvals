@@ -7,7 +7,7 @@ The objective is to predict whether a customer will be accepted or rejected in t
 
 ### Project Contents
 - cc_approvals - dataset.  The original dataset comes from Kaggle and can be viewed here https://www.kaggle.com/datasets/youssefaboelwafa/credit-card-approval. 
-- notebook.ipynb for EDA, training models and feature engineering.  I used 3 different models - Logistic regression, random Forest and XGBoost.  I selected the XGBoost model for deployment due to its high ROC-AUC Score and Accuracy.
+- notebook.ipynb for EDA, training models and feature engineering.  I used 3 different models - Logistic Regression, Random Forest and XGBoost.  I selected the XGBoost model for deployment due to its high ROC-AUC Score and Accuracy.
 - train.py - python file for training the final model
 - predict.py - deployment file for running the model as a web service
 - Dockerfile - to run web service in a container
