@@ -9,7 +9,7 @@ The objective is to predict whether a customer will be accepted or rejected in t
 - cc_approvals - dataset.  The original dataset comes from Kaggle and can be viewed here https://www.kaggle.com/datasets/youssefaboelwafa/credit-card-approval. 
 - notebook.ipynb for EDA, training models and feature engineering.  I used 3 different models - Logistic regression, random Forest and XGBoost.  I selected the XGBoost model for deployment due to its high ROC-AUC Score and Accuracy.
 - train.py - python file for training the final model
-- predict.py - python file for running the model as a web service
+- predict.py - deployment file for running the model as a web service
 - Dockerfile - to run web service in a container
 - Pipfile and Pipfile.lock to install dependencies to run predict service
 - cc_model and dv.bin - model and DictVectorizer files
