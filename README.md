@@ -18,6 +18,8 @@ Running the web service in a virtual environment or docker container requires ac
 The following libraries are required - pandas, numpy, matplotlib, scikit-learn==1.3.1, tqdm, seaborn, xgboost==2.0.0
 ```pip install pandas numpy matplotlib scikit-learn==1.3.1 tqdm seaborn xgboost==2.0.0```
 
+Notebook can be viewed using nbviewer https://nbviewer.org/github/rlonglands/credit_card_approvals/blob/main/notebook.ipynb
+
 ### Running prediction locally as web service:
 
 Use pipenv to create virtual environment and install dependencies
